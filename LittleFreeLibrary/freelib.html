@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>My Little Free Library</title>
+   <link href="freelib.css" rel="stylesheet">
+   <script src="freelib.js"></script>
+</head>
+<body>
+   <h1>Welcome to My Little Free Library</h1>
+   <p>
+      Please <b>press the buttons</b> to explore the various books that are
+      available in my library. If you want to help readers in your area
+      and build a <i>real</i> Little Free Library, please visit their
+      website at <a href="https://littlefreelibrary.org/" target="_blank">
+      https://littlefreelibrary.org/</a>.
+   </p>
+   <table border=2 cellpadding=3 cellspacing=3>
+      <tr>
+         <td>
+            <button onclick="displayBook1()">Book One</button>
+         </td>
+         <td rowspan="4" width="500px">
+            <div id="bookDisplay">
+               <ul>
+                  <li><b>Title:</b> <div id="bookTitle"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Author:</b> <div id="bookAuthor"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Publisher:</b> <div id="bookPublisher"></div></li>
+               </ul>
+               <ul>
+                  <li><b>Publication Year:</b> <div id="bookYear"></div></li>
+               </ul>
+            </div>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <button onclick="displayBook2()">Book Two</button>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <button onclick="displayBook3()">Book Three</button>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <button onclick="displayBook4()">Book Four</button>
+         </td>
+      </tr>
+</body>
+</html>
