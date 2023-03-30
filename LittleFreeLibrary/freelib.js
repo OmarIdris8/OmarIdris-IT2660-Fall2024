@@ -1,34 +1,38 @@
 
-const library = [
+const books = [
 {
-    title: "Corduroy",
-    author: "Don Freeman",
-    publisher: "Viking Books",
-    year: "1968",
-    jacketColor: "firebrick"
+    "title": "Corduroy",
+    "author": "Don Freeman",
+    "publisher": "Viking Books",
+    "year": "1968",
+    "jacketColor": "firebrick"
 },
 {
-    title: "Life of Pi",
-    author: "Yaan Martel",
-    publisher: "Knobf Canada",
-    year: "2001",
-    jacketColor: "dodgerblue"
+    "title": "Life of Pi",
+    "author": "Yaan Martel",
+    "publisher": "Knobf Canada",
+    "year": "2001",
+    "jacketColor": "dodgerblue"
 },
 {
-    title: "The Hitchikers Guide To The Galaxy",
-    author: "Douglas Adams",
-    publisher: "Del Rey",
-    year: "1995",
-    jacketColor: "limegreen"
+    "title": "The Hitchikers Guide To The Galaxy",
+    "author": "Douglas Adams",
+    "publisher": "Del Rey",
+    "year": "1995",
+    "jacketColor": "limegreen"
 },
 {
-    title: "The Invisible Man",
-    author: "H.G. Wells",
-    publisher: "Atria Books",
-    year: "2014",
-    jacketColor: "burlywood"
+    "title": "The Invisible Man",
+    "author": "H.G. Wells",
+    "publisher": "Atria Books",
+    "year": "2014",
+    "jacketColor": "burlywood"
 }
 ];
+
+const allBooks = JSON.stringify(books);
+const library = JSON.parse(allBooks);
+
 function displayBook1(){
     document.getElementById("bookDisplay").style.background = library[0].jacketColor;
     document.getElementById("bookTitle").innerHTML = library[0].title;
