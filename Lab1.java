@@ -6,7 +6,7 @@
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("hell, world!");
+    System.out.println("helloo, world!");
 
     Lab1 lab = new Lab1();
     System.out.println(lab.increment(1));
