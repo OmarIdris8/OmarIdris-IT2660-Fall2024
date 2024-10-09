@@ -3,6 +3,9 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.Iterator;
 
+// Lab 2 - Lists, Stacks, and Queues
+// Your Name: Omar Idris
+
 class Main2 {
   public static void main(String[] args) {
     Lab2 lab = new Lab2();
@@ -17,7 +20,7 @@ class Main2 {
 class Lab2 {
   public void linkedList() {
     // 1. Create a LinkedList<String> object called progLanguages
-    LinkedList<String> progLanguages = new LinkedList<>();
+    LinkedList<String> progLanguages = new LinkedList<String>();
 
     // 2. Add elements to progLanguages: "Java", "Python", "JavaScript", "C++"
     progLanguages.add("Java");
