@@ -1,4 +1,4 @@
-public class Main {
+public class Lab3 {
     public static void main(String[] args) {
       String text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
       // Best case scenario 
