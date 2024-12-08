@@ -4,7 +4,7 @@ class Main {
       MyHashMap<String, Integer> creditHours = new MyHashMap<>();
 
       // Add the specified key-value pairs to the map
-      creditHours.put("IT-1025", 3);
+      creditHours.put("IT-1025", 3); 
       creditHours.put("IT-1050", 3);
       creditHours.put("IT-1150", 3);
       creditHours.put("IT-2310", 3);
